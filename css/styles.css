@@ -1,0 +1,38 @@
+body {
+font-family: Trebuchet MS;
+text-align: center;
+margin-left: 25%;
+margin-right: 25%;
+line-height: 1.5;
+color: dimgray;
+}
+
+h1 {
+font-size: 50px;
+text-transform: uppercase;
+color: orangered;
+}
+
+h2 {
+text-transform: uppercase;
+margin-top: 30px;
+font-size: 35px;
+color: teal;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+img {
+width: 100%;
+height: auto;
+}
+
+
+/*Here is an example of how to use media queries in case we dont get to it in class */
+@media(max-width:767px){
+  body {
+    margin: 0px;
+  }
+}
