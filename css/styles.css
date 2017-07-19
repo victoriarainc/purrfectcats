@@ -8,6 +8,11 @@ color: dimgray;
 background-color: rgb(26, 51, 91);
 }
 
+a {
+text-decoration: none;
+color: white; 
+}
+
 h1 {
 font-size: 50px;
 text-transform: uppercase;
